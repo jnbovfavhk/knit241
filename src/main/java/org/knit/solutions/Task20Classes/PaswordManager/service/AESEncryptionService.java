@@ -22,8 +22,7 @@ public class AESEncryptionService implements EncryptionService {
     private static final String SECRET_KEY_ALGO = "PBKDF2WithHmacSHA256";
     private static final byte[] SALT = "my-salt-value".getBytes();
 
-    public AESEncryptionService() throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
-    }
+
 
     private SecretKey generateKeyFromPassword(char[] password) {
         try {
@@ -37,18 +36,8 @@ public class AESEncryptionService implements EncryptionService {
     }
 
 
-    public void changeSecretKey(MasterPasswordHolder holder) throws IllegalBlockSizeException, BadPaddingException, InvalidKeyException {
-        key = new SecretKeySpec(new String(holder.getMasterPassword()).getBytes(), "AES");
-    }
-
     @Override
     public char[] encrypt(char[] password) throws IllegalBlockSizeException, BadPaddingException, InvalidKeyException {
-        cipher.init(Cipher.ENCRYPT_MODE, key);
-        byte[] encryptedPassword = cipher.doFinal(new String(password).getBytes());
-        return new String(encryptedPassword).toCharArray();
-    }
-
-    public char[] encrypt(char[] secretKey ,char[] password) throws IllegalBlockSizeException, BadPaddingException, InvalidKeyException {
         cipher.init(Cipher.ENCRYPT_MODE, key);
         byte[] encryptedPassword = cipher.doFinal(new String(password).getBytes());
         return new String(encryptedPassword).toCharArray();
@@ -61,7 +50,7 @@ public class AESEncryptionService implements EncryptionService {
         return new String(decrypted).toCharArray();
     }
 
-    public void changeSecretKey(char[] masterPassword) throws IllegalBlockSizeException, BadPaddingException, InvalidKeyException {
-        key = new SecretKeySpec(new String(masterPassword).getBytes(), "AES");
+    public void setSecretKey(char[] masterPassword) {
+        key = generateKeyFromPassword(masterPassword);
     }
 }

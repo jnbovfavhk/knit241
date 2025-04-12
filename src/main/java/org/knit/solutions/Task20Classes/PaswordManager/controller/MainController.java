@@ -5,11 +5,4 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MainController {
-    private final PasswordService passwordService;
-
-
-    public MainController(PasswordService passwordService) {
-        this.passwordService = passwordService;
-    }
-
 }
