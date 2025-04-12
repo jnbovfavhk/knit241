@@ -11,8 +11,7 @@ public class TaskExecutor {
             Constructor<? extends Solution> constructor = aClass.getConstructor();
             Solution solution = constructor.newInstance();
             solution.execute();
-        } catch (NoSuchMethodException | InstantiationException | IllegalAccessException | InvocationTargetException |
-                 ClassNotFoundException | InterruptedException e) {
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }

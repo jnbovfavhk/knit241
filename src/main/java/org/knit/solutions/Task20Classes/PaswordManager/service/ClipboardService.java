@@ -1,15 +1,8 @@
 package org.knit.solutions.Task20Classes.PaswordManager.service;
 
-import org.springframework.stereotype.Service;
+public interface ClipboardService {
 
-import java.awt.*;
-import java.awt.datatransfer.StringSelection;
+    void copyToClipboard(char[] content);
+    void clearClipboard();
 
-@Service
-public class ClipboardService {
-    public static void copyToClipboard(char[] password) {
-        Toolkit.getDefaultToolkit()
-                .getSystemClipboard()
-                .setContents(new StringSelection(new String(password)), null);
-    }
 }
