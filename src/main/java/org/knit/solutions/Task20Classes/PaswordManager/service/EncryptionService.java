@@ -6,5 +6,6 @@ import java.security.InvalidKeyException;
 
 public interface EncryptionService {
     char[] encrypt(char[] input) throws IllegalBlockSizeException, BadPaddingException, InvalidKeyException;
+
     char[] decrypt(char[] input) throws InvalidKeyException, IllegalBlockSizeException, BadPaddingException;
 }

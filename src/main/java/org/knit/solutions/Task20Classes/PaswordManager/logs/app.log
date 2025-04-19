@@ -1,0 +1,720 @@
+2025-04-19 19:08:39 TRACE o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5204062d, started on Sat Apr 19 19:08:39 GMT+04:00 2025
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [org/knit/solutions/Task20Classes/PaswordManager/] to resources [URL [file:/C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/]]
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager]
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:08:39 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:org/knit/solutions/Task20Classes/PaswordManager/**/*.class] to resources [file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class]
+2025-04-19 19:08:39 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class]
+2025-04-19 19:08:39 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class]
+2025-04-19 19:08:39 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class]
+2025-04-19 19:08:39 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class]
+2025-04-19 19:08:39 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class]
+2025-04-19 19:08:39 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class]
+2025-04-19 19:08:39 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]
+2025-04-19 19:08:39 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]
+2025-04-19 19:08:39 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.cipherService()
+2025-04-19 19:08:39 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.objectMapper()
+2025-04-19 19:08:39 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.passwordsFile()
+2025-04-19 19:08:39 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.scanner()
+2025-04-19 19:08:39 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.data()
+2025-04-19 19:08:39 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.console()
+2025-04-19 19:08:39 TRACE o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig; enhanced class name is: org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0
+2025-04-19 19:08:39 TRACE o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'appConfig' existing class 'org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig' with enhanced class 'org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:08:39 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'messageSource' bean, using [Empty MessageSource]
+2025-04-19 19:08:39 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d21a74c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,pmApplicationListener,passwordEntry,inMemoryPasswordRepository,masterPasswordManager,AESEncryptionService,clipboardServiceImpl,passwordService,consoleInterface,cipherService,objectMapper,passwordsFile,scanner,data,console]; root of factory hierarchy
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'appConfig'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'appConfig'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'pmApplicationListener'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'pmApplicationListener'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'pmApplicationListener' to allow for resolving potential circular references
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'consoleInterface'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'consoleInterface'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'consoleInterface' to allow for resolving potential circular references
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'scanner'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'scanner'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'scanner' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'scanner'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'scanner'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordService' to allow for resolving potential circular references
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'inMemoryPasswordRepository'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'inMemoryPasswordRepository'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'inMemoryPasswordRepository' to allow for resolving potential circular references
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordsFile'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordsFile'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordsFile' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordsFile'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'passwordsFile'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'objectMapper'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'objectMapper'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'objectMapper' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'objectMapper'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'objectMapper'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'data'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'data'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'data' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'data'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'data'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'inMemoryPasswordRepository'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'passwordService' to bean named 'inMemoryPasswordRepository'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'AESEncryptionService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'AESEncryptionService' to allow for resolving potential circular references
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cipherService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'cipherService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'cipherService' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'cipherService'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'AESEncryptionService' to bean named 'cipherService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'AESEncryptionService'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'passwordService' to bean named 'AESEncryptionService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordService'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'passwordService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'AESEncryptionService'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'masterPasswordManager'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'masterPasswordManager'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'masterPasswordManager' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'masterPasswordManager' to bean named 'AESEncryptionService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'masterPasswordManager'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'masterPasswordManager'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'clipboardServiceImpl'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'clipboardServiceImpl'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'clipboardServiceImpl' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'clipboardServiceImpl'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'clipboardServiceImpl'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'console'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'console'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'console' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'console'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'console'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'consoleInterface'
+2025-04-19 19:08:39 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'pmApplicationListener' to bean named 'consoleInterface'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'pmApplicationListener'
+2025-04-19 19:08:39 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEntry'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordEntry'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordEntry' to allow for resolving potential circular references
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordEntry'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'inMemoryPasswordRepository'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'masterPasswordManager'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'clipboardServiceImpl'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'passwordService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'consoleInterface'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'cipherService'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'objectMapper'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'passwordsFile'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'scanner'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'data'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'console'
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0
+2025-04-19 19:08:39 DEBUG o.s.c.e.EventListenerMethodProcessor - 1 @EventListener methods processed on bean 'pmApplicationListener': {public void org.knit.solutions.Task20Classes.PaswordManager.PmApplicationListener.init(org.springframework.context.event.ContextRefreshedEvent)=@org.springframework.context.event.EventListener(classes={}, condition="", id="", value={})}
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.model.PasswordEntry
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.repository.InMemoryPasswordRepository
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.security.MasterPasswordManager
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.AESEncryptionService
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.ClipboardServiceImpl
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.PasswordService
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.ui.ConsoleInterface
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: javax.crypto.Cipher
+2025-04-19 19:08:39 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: com.fasterxml.jackson.databind.ObjectMapper
+2025-04-19 19:08:39 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+2025-04-19 19:08:39 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'pmApplicationListener'
+2025-04-19 19:09:02 TRACE o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5204062d, started on Sat Apr 19 19:09:02 GMT+04:00 2025
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [org/knit/solutions/Task20Classes/PaswordManager/] to resources [URL [file:/C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/]]
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager]
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:02 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:org/knit/solutions/Task20Classes/PaswordManager/**/*.class] to resources [file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class]
+2025-04-19 19:09:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class]
+2025-04-19 19:09:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class]
+2025-04-19 19:09:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class]
+2025-04-19 19:09:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class]
+2025-04-19 19:09:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class]
+2025-04-19 19:09:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class]
+2025-04-19 19:09:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]
+2025-04-19 19:09:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]
+2025-04-19 19:09:02 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.cipherService()
+2025-04-19 19:09:02 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.objectMapper()
+2025-04-19 19:09:02 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.passwordsFile()
+2025-04-19 19:09:02 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.scanner()
+2025-04-19 19:09:02 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.data()
+2025-04-19 19:09:02 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.console()
+2025-04-19 19:09:02 TRACE o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig; enhanced class name is: org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0
+2025-04-19 19:09:02 TRACE o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'appConfig' existing class 'org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig' with enhanced class 'org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:09:02 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'messageSource' bean, using [Empty MessageSource]
+2025-04-19 19:09:02 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d21a74c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,pmApplicationListener,passwordEntry,inMemoryPasswordRepository,masterPasswordManager,AESEncryptionService,clipboardServiceImpl,passwordService,consoleInterface,cipherService,objectMapper,passwordsFile,scanner,data,console]; root of factory hierarchy
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'appConfig'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'appConfig'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'pmApplicationListener'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'pmApplicationListener'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'pmApplicationListener' to allow for resolving potential circular references
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'consoleInterface'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'consoleInterface'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'consoleInterface' to allow for resolving potential circular references
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'scanner'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'scanner'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'scanner' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'scanner'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'scanner'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordService' to allow for resolving potential circular references
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'inMemoryPasswordRepository'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'inMemoryPasswordRepository'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'inMemoryPasswordRepository' to allow for resolving potential circular references
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordsFile'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordsFile'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordsFile' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordsFile'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'passwordsFile'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'objectMapper'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'objectMapper'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'objectMapper' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'objectMapper'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'objectMapper'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'data'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'data'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'data' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'data'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'data'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'inMemoryPasswordRepository'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'passwordService' to bean named 'inMemoryPasswordRepository'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'AESEncryptionService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'AESEncryptionService' to allow for resolving potential circular references
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cipherService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'cipherService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'cipherService' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'cipherService'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'AESEncryptionService' to bean named 'cipherService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'AESEncryptionService'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'passwordService' to bean named 'AESEncryptionService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordService'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'passwordService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'AESEncryptionService'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'masterPasswordManager'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'masterPasswordManager'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'masterPasswordManager' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'masterPasswordManager' to bean named 'AESEncryptionService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'masterPasswordManager'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'masterPasswordManager'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'clipboardServiceImpl'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'clipboardServiceImpl'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'clipboardServiceImpl' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'clipboardServiceImpl'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'clipboardServiceImpl'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'console'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'console'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'console' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'console'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'console'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'consoleInterface'
+2025-04-19 19:09:02 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'pmApplicationListener' to bean named 'consoleInterface'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'pmApplicationListener'
+2025-04-19 19:09:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEntry'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordEntry'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordEntry' to allow for resolving potential circular references
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordEntry'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'inMemoryPasswordRepository'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'masterPasswordManager'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'clipboardServiceImpl'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'passwordService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'consoleInterface'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'cipherService'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'objectMapper'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'passwordsFile'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'scanner'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'data'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'console'
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0
+2025-04-19 19:09:02 DEBUG o.s.c.e.EventListenerMethodProcessor - 1 @EventListener methods processed on bean 'pmApplicationListener': {public void org.knit.solutions.Task20Classes.PaswordManager.PmApplicationListener.init(org.springframework.context.event.ContextRefreshedEvent)=@org.springframework.context.event.EventListener(classes={}, condition="", id="", value={})}
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.model.PasswordEntry
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.repository.InMemoryPasswordRepository
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.security.MasterPasswordManager
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.AESEncryptionService
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.ClipboardServiceImpl
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.PasswordService
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.ui.ConsoleInterface
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: javax.crypto.Cipher
+2025-04-19 19:09:02 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: com.fasterxml.jackson.databind.ObjectMapper
+2025-04-19 19:09:02 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+2025-04-19 19:09:02 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'pmApplicationListener'
+2025-04-19 19:09:50 TRACE o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5204062d, started on Sat Apr 19 19:09:50 GMT+04:00 2025
+2025-04-19 19:09:50 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:09:50 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:09:50 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2025-04-19 19:09:50 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [org/knit/solutions/Task20Classes/PaswordManager/] to resources [URL [file:/C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/]]
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager]
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:09:50 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:org/knit/solutions/Task20Classes/PaswordManager/**/*.class] to resources [file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class]
+2025-04-19 19:09:50 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class]
+2025-04-19 19:09:50 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class]
+2025-04-19 19:09:50 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class]
+2025-04-19 19:09:50 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class]
+2025-04-19 19:09:50 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class]
+2025-04-19 19:09:50 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class]
+2025-04-19 19:09:50 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]
+2025-04-19 19:09:50 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]
+2025-04-19 19:09:50 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.cipherService()
+2025-04-19 19:09:50 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.objectMapper()
+2025-04-19 19:09:50 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.passwordsFile()
+2025-04-19 19:09:50 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.scanner()
+2025-04-19 19:09:50 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.data()
+2025-04-19 19:09:50 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.console()
+2025-04-19 19:09:51 TRACE o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig; enhanced class name is: org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0
+2025-04-19 19:09:51 TRACE o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'appConfig' existing class 'org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig' with enhanced class 'org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:09:51 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'messageSource' bean, using [Empty MessageSource]
+2025-04-19 19:09:51 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d21a74c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,pmApplicationListener,passwordEntry,inMemoryPasswordRepository,masterPasswordManager,AESEncryptionService,clipboardServiceImpl,passwordService,consoleInterface,cipherService,objectMapper,passwordsFile,scanner,data,console]; root of factory hierarchy
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'appConfig'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'appConfig'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'pmApplicationListener'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'pmApplicationListener'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'pmApplicationListener' to allow for resolving potential circular references
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'consoleInterface'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'consoleInterface'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'consoleInterface' to allow for resolving potential circular references
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'scanner'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'scanner'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'scanner' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'scanner'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'scanner'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordService' to allow for resolving potential circular references
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'inMemoryPasswordRepository'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'inMemoryPasswordRepository'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'inMemoryPasswordRepository' to allow for resolving potential circular references
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordsFile'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordsFile'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordsFile' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordsFile'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'passwordsFile'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'objectMapper'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'objectMapper'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'objectMapper' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'objectMapper'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'objectMapper'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'data'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'data'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'data' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'data'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'data'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'inMemoryPasswordRepository'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'passwordService' to bean named 'inMemoryPasswordRepository'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'AESEncryptionService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'AESEncryptionService' to allow for resolving potential circular references
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cipherService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'cipherService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'cipherService' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'cipherService'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'AESEncryptionService' to bean named 'cipherService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'AESEncryptionService'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'passwordService' to bean named 'AESEncryptionService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordService'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'passwordService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'AESEncryptionService'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'masterPasswordManager'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'masterPasswordManager'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'masterPasswordManager' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'masterPasswordManager' to bean named 'AESEncryptionService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'masterPasswordManager'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'masterPasswordManager'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'clipboardServiceImpl'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'clipboardServiceImpl'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'clipboardServiceImpl' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'clipboardServiceImpl'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'clipboardServiceImpl'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'console'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'console'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'console' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'console'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'console'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'consoleInterface'
+2025-04-19 19:09:51 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'pmApplicationListener' to bean named 'consoleInterface'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'pmApplicationListener'
+2025-04-19 19:09:51 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEntry'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordEntry'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordEntry' to allow for resolving potential circular references
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordEntry'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'inMemoryPasswordRepository'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'masterPasswordManager'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'clipboardServiceImpl'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'passwordService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'consoleInterface'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'cipherService'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'objectMapper'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'passwordsFile'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'scanner'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'data'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'console'
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0
+2025-04-19 19:09:51 DEBUG o.s.c.e.EventListenerMethodProcessor - 1 @EventListener methods processed on bean 'pmApplicationListener': {public void org.knit.solutions.Task20Classes.PaswordManager.PmApplicationListener.init(org.springframework.context.event.ContextRefreshedEvent)=@org.springframework.context.event.EventListener(classes={}, condition="", id="", value={})}
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.model.PasswordEntry
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.repository.InMemoryPasswordRepository
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.security.MasterPasswordManager
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.AESEncryptionService
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.ClipboardServiceImpl
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.PasswordService
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.ui.ConsoleInterface
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: javax.crypto.Cipher
+2025-04-19 19:09:51 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: com.fasterxml.jackson.databind.ObjectMapper
+2025-04-19 19:09:51 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+2025-04-19 19:09:51 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'pmApplicationListener'
+2025-04-19 19:10:53 TRACE o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5204062d, started on Sat Apr 19 19:10:53 GMT+04:00 2025
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [org/knit/solutions/Task20Classes/PaswordManager/] to resources [URL [file:/C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/]]
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager]
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui] for files matching pattern [C:/Users/ilyab/IdeaProjects/knit241/target/classes/org/knit/solutions/Task20Classes/PaswordManager/**/*.class]
+2025-04-19 19:10:53 TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:org/knit/solutions/Task20Classes/PaswordManager/**/*.class] to resources [file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class], file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\App.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class]
+2025-04-19 19:10:53 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\PmApplicationListener.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig$1.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\config\AppConfig.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class]
+2025-04-19 19:10:53 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\model\PasswordEntry.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class]
+2025-04-19 19:10:53 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\repository\InMemoryPasswordRepository.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class]
+2025-04-19 19:10:53 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\security\MasterPasswordManager.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class]
+2025-04-19 19:10:53 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\AESEncryptionService.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardService.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class]
+2025-04-19 19:10:53 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\ClipboardServiceImpl.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\EncryptionService.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class]
+2025-04-19 19:10:53 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\service\PasswordService.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]
+2025-04-19 19:10:53 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\ilyab\IdeaProjects\knit241\target\classes\org\knit\solutions\Task20Classes\PaswordManager\ui\ConsoleInterface.class]
+2025-04-19 19:10:53 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.cipherService()
+2025-04-19 19:10:53 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.objectMapper()
+2025-04-19 19:10:53 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.passwordsFile()
+2025-04-19 19:10:53 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.scanner()
+2025-04-19 19:10:53 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.data()
+2025-04-19 19:10:53 TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig.console()
+2025-04-19 19:10:53 TRACE o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig; enhanced class name is: org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0
+2025-04-19 19:10:53 TRACE o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'appConfig' existing class 'org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig' with enhanced class 'org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0'
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:10:53 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'messageSource' bean, using [Empty MessageSource]
+2025-04-19 19:10:53 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d21a74c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,pmApplicationListener,passwordEntry,inMemoryPasswordRepository,masterPasswordManager,AESEncryptionService,clipboardServiceImpl,passwordService,consoleInterface,cipherService,objectMapper,passwordsFile,scanner,data,console]; root of factory hierarchy
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'appConfig'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'appConfig'
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'pmApplicationListener'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'pmApplicationListener'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'pmApplicationListener' to allow for resolving potential circular references
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'consoleInterface'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'consoleInterface'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'consoleInterface' to allow for resolving potential circular references
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'scanner'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'scanner'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'scanner' to allow for resolving potential circular references
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'scanner'
+2025-04-19 19:10:53 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'scanner'
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordService'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordService'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordService' to allow for resolving potential circular references
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'inMemoryPasswordRepository'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'inMemoryPasswordRepository'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'inMemoryPasswordRepository' to allow for resolving potential circular references
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordsFile'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordsFile'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordsFile' to allow for resolving potential circular references
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordsFile'
+2025-04-19 19:10:53 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'passwordsFile'
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'objectMapper'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'objectMapper'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'objectMapper' to allow for resolving potential circular references
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'objectMapper'
+2025-04-19 19:10:53 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'objectMapper'
+2025-04-19 19:10:53 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'data'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'data'
+2025-04-19 19:10:53 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'data' to allow for resolving potential circular references
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'data'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'inMemoryPasswordRepository' to bean named 'data'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'inMemoryPasswordRepository'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'passwordService' to bean named 'inMemoryPasswordRepository'
+2025-04-19 19:10:54 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'AESEncryptionService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'AESEncryptionService' to allow for resolving potential circular references
+2025-04-19 19:10:54 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cipherService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'cipherService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'cipherService' to allow for resolving potential circular references
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'cipherService'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'AESEncryptionService' to bean named 'cipherService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'AESEncryptionService'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'passwordService' to bean named 'AESEncryptionService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordService'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'passwordService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'AESEncryptionService'
+2025-04-19 19:10:54 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'masterPasswordManager'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'masterPasswordManager'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'masterPasswordManager' to allow for resolving potential circular references
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'masterPasswordManager' to bean named 'AESEncryptionService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'masterPasswordManager'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'masterPasswordManager'
+2025-04-19 19:10:54 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'clipboardServiceImpl'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'clipboardServiceImpl'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'clipboardServiceImpl' to allow for resolving potential circular references
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'clipboardServiceImpl'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'clipboardServiceImpl'
+2025-04-19 19:10:54 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'console'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'console'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'appConfig'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'console' to allow for resolving potential circular references
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'console'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'consoleInterface' to bean named 'console'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'consoleInterface'
+2025-04-19 19:10:54 TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'pmApplicationListener' to bean named 'consoleInterface'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'pmApplicationListener'
+2025-04-19 19:10:54 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEntry'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'passwordEntry'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'passwordEntry' to allow for resolving potential circular references
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'passwordEntry'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'inMemoryPasswordRepository'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'masterPasswordManager'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'AESEncryptionService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'clipboardServiceImpl'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'passwordService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'consoleInterface'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'cipherService'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'objectMapper'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'passwordsFile'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'scanner'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'data'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'console'
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.config.AppConfig$$EnhancerBySpringCGLIB$$749d67b0
+2025-04-19 19:10:54 DEBUG o.s.c.e.EventListenerMethodProcessor - 1 @EventListener methods processed on bean 'pmApplicationListener': {public void org.knit.solutions.Task20Classes.PaswordManager.PmApplicationListener.init(org.springframework.context.event.ContextRefreshedEvent)=@org.springframework.context.event.EventListener(classes={}, condition="", id="", value={})}
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.model.PasswordEntry
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.repository.InMemoryPasswordRepository
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.security.MasterPasswordManager
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.AESEncryptionService
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.ClipboardServiceImpl
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.service.PasswordService
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.knit.solutions.Task20Classes.PaswordManager.ui.ConsoleInterface
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: javax.crypto.Cipher
+2025-04-19 19:10:54 TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: com.fasterxml.jackson.databind.ObjectMapper
+2025-04-19 19:10:54 TRACE o.s.c.a.AnnotationConfigApplicationContext - No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+2025-04-19 19:10:54 TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'pmApplicationListener'
+2025-04-19 19:10:57 DEBUG o.k.s.T.P.s.MasterPasswordManager - Мастер-пароль десериализован
+2025-04-19 19:10:57 DEBUG o.k.s.T.P.s.AESEncryptionService - Ключ был пробразован к нужной длине
+2025-04-19 19:10:57 DEBUG o.k.s.T.P.s.AESEncryptionService - Установлен ключ для шифратора
+2025-04-19 19:10:57 DEBUG o.k.s.T.P.s.AESEncryptionService - Пароль зашифрован: k�/GpnTeh��W
+2025-04-19 19:11:01 DEBUG o.k.s.T.P.s.MasterPasswordManager - Мастер-пароль десериализован
+2025-04-19 19:11:01 DEBUG o.k.s.T.P.s.AESEncryptionService - Ключ был пробразован к нужной длине
+2025-04-19 19:11:01 DEBUG o.k.s.T.P.s.AESEncryptionService - Установлен ключ для шифратора
+2025-04-19 19:11:01 DEBUG o.k.s.T.P.s.AESEncryptionService - Пароль зашифрован: R@/Ε6M�~3w�)LH
+2025-04-19 19:11:09 DEBUG o.k.s.T.P.s.AESEncryptionService - Пароль расшифрован. Его шифр:+mdOCQ2iGufztdlgxg8Lbw==
+2025-04-19 19:11:09 INFO  o.k.s.T.P.s.ClipboardServiceImpl - Некий пароль скопирован в буфер обмена
+2025-04-19 19:11:19 INFO  o.k.s.T.P.s.ClipboardServiceImpl - Буфер обмена очищен
+2025-04-19 19:11:21 TRACE o.s.c.e.ApplicationListenerMethodAdapter - No result object given - no result to handle
+2025-04-19 19:11:21 TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+2025-04-19 19:11:21 TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+2025-04-19 19:11:21 TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2025-04-19 19:11:21 TRACE o.s.c.i.s.SpringFactoriesLoader - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]

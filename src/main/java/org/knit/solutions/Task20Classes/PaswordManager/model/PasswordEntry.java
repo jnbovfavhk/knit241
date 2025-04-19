@@ -1,8 +1,9 @@
 package org.knit.solutions.Task20Classes.PaswordManager.model;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
 import java.util.Objects;
 
 @Component
@@ -10,12 +11,15 @@ public class PasswordEntry {
     private final String site;
     private final String login;
     private final char[] encryptedPassword;
+    private final Logger log = LoggerFactory.getLogger(PasswordEntry.class);
 
     public PasswordEntry(String site, String login, char[] encryptedPassword) {
         this.site = site;
         this.login = login;
         this.encryptedPassword = encryptedPassword;
+        log.debug("Объект PasswordEntry создан: " + this);
     }
+
     public PasswordEntry() {
         this.site = null;
         this.login = null;
